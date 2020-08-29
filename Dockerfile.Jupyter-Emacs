@@ -16,6 +16,9 @@ RUN apt-get install -y \
     make \
     git
 
+# TODO: Import git configuration values for the global user.email and 
+# user.name parameters.
+
 # Install Python3 and dependencies
 RUN apt-get install -y \
         python3 \
